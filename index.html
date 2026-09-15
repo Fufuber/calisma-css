@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+        h1{
+            color: red;
+        }
+    </style> -->
+    <!-- head tagına etiket açarak kullanılabilir örnek bu şekild class ve id de bu tarzdır-->
+    <link rel="stylesheet" href="style.css" />
+    <!--bu ise css dosyası ayrı açılır ve link ile htm dosyasına bağlanır-->
+
+    <style>
+      .yaziOzekllik {
+        color: blue;
+      }
+      #yaziRengi {
+        color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <!--3 çeşit css koda ekleme şekli var bunlar
+    etkiet kullanarak
+    style etiketleri kullanarak
+    harici bir css dosyası ile -->
+
+    <h1 style="color: aqua"></h1>
+
+    <!-- mesela burda etiket kullanarak yapılmıştır -->
+
+    <h2 class="yaziOzekllik">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque,
+      obcaecati.
+    </h2>
+    <h2 id="yaziRengi">deneme</h2>
+    <h2>deneme123</h2>
+    <h2>deneme 123456</h2>
+    <!-- id birkez kullanmak öenmli çünkü ilerde js de id ile çekebiliriz yorumu heryerde kullanırsak hepsi gelir-->
+  </body>
+</html>
