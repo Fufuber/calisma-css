@@ -1,4 +1,4 @@
-<!doctype html>
+i<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -54,7 +54,6 @@
         background-color: #d327d3;
         width: 250px;
         height: 250px;
-        display: inline-block;
         margin-right: 10px;
       }
 
@@ -62,7 +61,6 @@
         background-color: red;
         width: 50px;
         height: 50px;
-        display: inline-block;
       }
 
       .paragraf {
@@ -78,6 +76,10 @@
         word-spacing: 10px;
       }
 
+      .fa-pixel {
+        font-size: 100px;
+      }
+
       /* * {
         color: red;
         background-color: red;
@@ -87,6 +89,28 @@
       /* p,h1 {
           color: red;
       } */
+
+      .linkYolu:hover {
+        color: orange;
+      }
+
+      /* üzerine gelindiğinde hover ile ayarlanyıor*/
+
+      .linkYolu:link {
+        color: blue;
+      }
+
+      .linkYolu:active {
+        color: red;
+        background-color: blue;
+      }
+
+      /* üzerine tıklanıldığı andaki durumunu active ile ayarlıyouz*/
+
+      .linkYolu:visited {
+        color: #d327d3;
+        background-color: yellow;
+      }
     </style>
   </head>
   <body>
@@ -122,7 +146,11 @@
 
     <div class="kutu5"></div>
 
-    <!--icon ekleme-->
+    <!-- icon ekleme -->
     <i class="fa-pixel fa-regular fa-headphones"></i>
+
+    <!--link özellikleri-->
+
+    <a href="https://www.google.com" class="linkYolu">Google a git</a>
   </body>
 </html>
